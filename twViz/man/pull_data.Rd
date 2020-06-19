@@ -51,11 +51,7 @@ pull_data(f, rds_file_name, query, use_rds)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
+The function is currently defined as
 function (f, rds_file_name, query, use_rds)
 {
     if (file.exists(rds_file_name) && use_rds) {
