@@ -16,9 +16,9 @@ theme_twitter(x)
 %%     ~~Describe \code{x} here~~
 }
 }
-\details{
+%%\details{
 %%  ~~ If necessary, more details than the description above ~~
-}
+%%}
 \value{
 %%  ~Describe the value returned
 %%  If it is a LIST, use
