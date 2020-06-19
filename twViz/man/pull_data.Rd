@@ -8,7 +8,7 @@ function to pull data from Vertica or an RDS file, and save output to an RDS fil
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-pull_data(x)
+pull_data(f, rds_file_name, query, use_rds)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
