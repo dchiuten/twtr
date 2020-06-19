@@ -13,16 +13,16 @@ pull_data(f, rds_file_name, query, use_rds)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{f}{
-%%     ~~Describe \code{f} here~~
+    A string, corresponding to the function name of the Vertica connecction
 }
   \item{rds_file_name}{
-%%     ~~Describe \code{rds_file_name} here~~
+    A string, indicating the name of the .rds file to be saved
 }
   \item{query}{
-%%     ~~Describe \code{query} here~~
+  %%     ~~Describe \code{query} here~~
 }
   \item{use_rds}{
-%%     ~~Describe \code{use_rds} here~~
+    Boolean, TRUE to import data from an rds file rather than running query
 }
 }
 \details{
