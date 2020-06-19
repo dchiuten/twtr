@@ -15,8 +15,6 @@ pull_data(f, rds_file_name, query, use_rds)
   \item{f}{The function name for the Vertica connection
 %%     ~~Describe \code{x} here~~
 }
-  \item{rds_file_name}{name for the rds file to save the query output locally
-}
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
