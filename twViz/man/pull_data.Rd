@@ -12,8 +12,8 @@ pull_data(f, rds_file_name, query, use_rds)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{f}{
-%%     The function name for the Vertica connection
+  \item{x}{
+%%     ~~Describe \code{x} here~~
 }
 }
 \details{
