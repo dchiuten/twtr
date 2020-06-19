@@ -17,6 +17,7 @@ pull_data(f, rds_file_name, query, use_rds)
 }
   \item{rds_file_name}{name for the rds file to save the query output locally
 }
+}
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
