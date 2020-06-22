@@ -8,11 +8,12 @@ function to select color(s) from the Twitter brand palette
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-twColor(x)
+twColor(colorname)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
+  \item{colorname}{
+  String, a color name in the format "darkblue", "xlblue", "lightblue", "xdblue"
 %%     ~~Describe \code{x} here~~
 }
 }
