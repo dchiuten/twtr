@@ -8,14 +8,10 @@ generates ggplot theme based on Twitter brand guidelines
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
-theme_twitter(x)
+theme_twitter()
 }
 %- maybe also 'usage' for other objects documented here.
-\arguments{
-  \item{x}{
-%%     ~~Describe \code{x} here~~
-}
-}
+
 %%\details{
 %%  ~~ If necessary, more details than the description above ~~
 %%}
@@ -41,16 +37,7 @@ theme_twitter(x)
 \seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
-\examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
 
-## The function is currently defined as
-function (x)
-{
-  }
-}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
 % \keyword{ ~kwd1 }
