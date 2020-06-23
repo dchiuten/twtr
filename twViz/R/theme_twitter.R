@@ -9,7 +9,7 @@ theme_twitter <- function(){
       face = "bold",
       size = 16
     ),
-    plot.subtitle = ggplot2::element_text(size = 16),
+    plot.subtitle = ggplot2::element_text(size = 14),
     plot.caption = ggplot2::element_text(size = 10, face = "italic"),
     panel.background = ggplot2::element_blank(),
     panel.grid.major.y = ggplot2::element_line(
@@ -18,7 +18,6 @@ theme_twitter <- function(){
       linetype = "dashed"
     ),
     legend.title = ggplot2::element_text(face = "bold", size = 11),
-    # strip.background = element_rect(fill = "#657786"),
     strip.background = ggplot2::element_rect(fill = "#005FD1"),
     strip.text = ggplot2::element_text(colour = "white", size = 11, face = "bold")
   )
