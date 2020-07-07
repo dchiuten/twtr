@@ -33,7 +33,8 @@ twColor <- function(color) {
     xxlgray = "#F5F8FA",
     xlgray = "#CCD6DD",
     lightgray = "#AAB8C2",
-    darkgray = "#657786"
+    darkgray = "#657786",
+    black = "#14171A"
   )
   if (is.numeric(color)) c <- twPaletteNamed[1:color[1]]
   else c <- as.vector(twPaletteNamed[tolower(color)])

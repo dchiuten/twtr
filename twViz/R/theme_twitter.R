@@ -14,7 +14,7 @@ theme_twitter <- function(){
     panel.background = ggplot2::element_blank(),
     panel.grid.major.y = ggplot2::element_line(
       size = 0.4,
-      color = "grey",
+      color = twColor("xlgrey"),
       linetype = "dashed"
     ),
     legend.title = ggplot2::element_text(face = "bold", size = 11),
