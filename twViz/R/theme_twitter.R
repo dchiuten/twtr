@@ -8,7 +8,11 @@ theme_twitter <- function(){
       hjust = 0, face = "bold", size = 16,
       margin = margin(0.0, 0, 0.2, 0, "cm")
     ),
-    plot.subtitle = ggplot2::element_text(size = 14),
+    plot.subtitle = ggplot2::element_text(
+      size = 14,
+      hjust = 0,
+      margin = margin(0.0, 0, 0.15, 0, "cm")
+      ),
     plot.caption = ggplot2::element_text(size = 10, face = "italic", hjust = 1),
     panel.background = ggplot2::element_blank(),
     panel.grid.major.y = ggplot2::element_line(
