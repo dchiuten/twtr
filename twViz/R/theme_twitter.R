@@ -10,7 +10,7 @@ theme_twitter <- function(){
       size = 16
     ),
     plot.subtitle = ggplot2::element_text(size = 14),
-    plot.caption = ggplot2::element_text(size = 10, face = "italic"),
+    plot.caption = ggplot2::element_text(size = 10, face = "italic", hjust = 1),
     panel.background = ggplot2::element_blank(),
     panel.grid.major.y = ggplot2::element_line(
       size = 0.4,
