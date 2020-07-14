@@ -19,6 +19,9 @@ theme_twitter <- function(){
     ),
     legend.title = ggplot2::element_text(face = "bold", size = 11),
     strip.background = ggplot2::element_rect(fill = "#005FD1"),
-    strip.text = ggplot2::element_text(colour = "white", size = 11, face = "bold")
+    strip.text = ggplot2::element_text(
+      colour = "white", size = 11, face = "bold",
+      margin = margin(0.25, 0, 0.25, 0, "cm")
+      )
   )
 }
