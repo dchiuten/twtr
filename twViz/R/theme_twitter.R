@@ -17,7 +17,7 @@ theme_twitter <- function(){
       linetype = "dashed"
     ),
     legend.title = ggplot2::element_text(face = "bold", size = 11),
-    strip.background = ggplot2::element_rect(fill = "#005FD1"),
+    strip.background = ggplot2::element_rect(fill = twColor("xdblue"), colour = NA),
     strip.text = ggplot2::element_text(
       colour = "white", size = 11, face = "bold",
       margin = margin(0.15, 0, 0.15, 0, "cm")
