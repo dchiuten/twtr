@@ -5,9 +5,8 @@ theme_twitter <- function(){
     axis.text = ggplot2::element_text(size = 10),
     axis.title = ggplot2::element_text(size = 10),
     plot.title = ggplot2::element_text(
-      hjust = 0,
-      face = "bold",
-      size = 16
+      hjust = 0, face = "bold", size = 16,
+      margin = margin(0.0, 0, 0.2, 0, "cm")
     ),
     plot.subtitle = ggplot2::element_text(size = 14),
     plot.caption = ggplot2::element_text(size = 10, face = "italic", hjust = 1),
@@ -21,7 +20,7 @@ theme_twitter <- function(){
     strip.background = ggplot2::element_rect(fill = "#005FD1"),
     strip.text = ggplot2::element_text(
       colour = "white", size = 11, face = "bold",
-      margin = margin(0.2, 0, 0.2, 0, "cm")
+      margin = margin(0.15, 0, 0.15, 0, "cm")
       )
   )
 }
