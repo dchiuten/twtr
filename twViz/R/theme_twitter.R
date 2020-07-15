@@ -1,7 +1,7 @@
 theme_twitter <- function(){
   ggplot2::theme(
-    title = ggplot2::element_text(family = "Helvetica"),
-    text = ggplot2::element_text(family = "Helvetica", size = 12),
+    title = ggplot2::element_text(family = "Helvetica Neue"),
+    text = ggplot2::element_text(family = "Helvetica Neue", size = 12),
     axis.text = ggplot2::element_text(size = 10),
     axis.title = ggplot2::element_text(size = 10),
     plot.title = ggplot2::element_text(
