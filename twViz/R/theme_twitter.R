@@ -5,7 +5,9 @@ theme_twitter <- function(){
     axis.text = ggplot2::element_text(size = 10),
     axis.title = ggplot2::element_text(size = 10),
     plot.title = ggplot2::element_text(
-      hjust = 0, face = "bold", size = 16,
+      hjust = 0,
+      face = "bold",
+      size = 16,
       margin = margin(0.0, 0, 0.2, 0, "cm")
     ),
     plot.subtitle = ggplot2::element_text(
