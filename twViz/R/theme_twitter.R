@@ -11,6 +11,7 @@ theme_twitter <- function(){
     plot.subtitle = ggplot2::element_text(
       size = 14,
       hjust = 0,
+      face = "italic",
       margin = margin(0.0, 0, 0.15, 0, "cm")
       ),
     plot.caption = ggplot2::element_text(size = 10, face = "italic", hjust = 1),
