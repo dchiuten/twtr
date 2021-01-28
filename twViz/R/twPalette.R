@@ -1,10 +1,10 @@
 twPalette <- c(
   "#1D9BF0", #blue
-  "#FCD61A", #vibrantyellow
   "#ED0277", #vibrantmagenta
-  "#FA4233", #vibrantred
-  "#7366D8", #vibrantpurple
+  "#FCD61A", #vibrantyellow
   "#23C59E", #vibrantgreen
+  "#7366D8", #vibrantpurple
+  "#FA4233", #vibrantred
   "#97E3FF", #lightblue
   "#FFF094", #lightyellow
   "#FF7D63", #lightred
