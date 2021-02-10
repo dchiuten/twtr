@@ -18,8 +18,8 @@ twColor <- function(color) {
     darkmagenta = "#61263B",
     dimmode = "#15202B",
     darkblue = "#024E9A",
-    black = "000000",
-    white = "FFFFFF"
+    black = "#000000",
+    white = "#FFFFFF"
     # darkblue = "#1DA1F2",
     # darkpurple = "#794BC4",
     # darkpink = "#E0245E",
